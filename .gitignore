@@ -1,0 +1,15 @@
+# Environnement 
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Donnees generees automatiquement
+data/raw/
+data/qdrant/
+data/corpus/
+data/eval/
+data/processed/

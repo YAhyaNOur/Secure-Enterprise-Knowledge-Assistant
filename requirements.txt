@@ -1,0 +1,8 @@
+pandas
+datasets
+qdrant-client
+sentence-transformers
+accelerate
+python-dotenv
+google-genai
+mcpc
