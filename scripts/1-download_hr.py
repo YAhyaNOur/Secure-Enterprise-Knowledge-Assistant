@@ -1,9 +1,7 @@
 
 """
-Etape 0 : Telecharger et verifier le dataset depuis Hugging Face.
+Etape 1 : Telecharger et verifier le dataset depuis Hugging Face.
 
-Source : https://huggingface.co/datasets/adarsh-08/hr-policy-dataset
-Licence : Apache-2.0
 
 Sortie : data/raw/hr_dataset_full.csv
 Colonnes : instruction, response
@@ -20,7 +18,7 @@ from datasets import load_dataset
 
 
 DATASET_ID = "adarsh-08/hr-policy-dataset"
-
+# Valeurs observees lors de l'exploration (voir 0-explore_hr.py)
 EXPECTED_ROWS = 512
 EXPECTED_QUESTIONS = 512
 EXPECTED_ANSWERS = 64
@@ -55,7 +53,7 @@ def main() -> None:
     print(f"Questions uniques : {n_questions}")
     print(f"Reponses uniques : {n_answers}")
 
-    # Vérifier le nombre de questions associées à chaque réponse
+    
     questions_per_response = (
         df.groupby("response")["instruction"].nunique()
     )
