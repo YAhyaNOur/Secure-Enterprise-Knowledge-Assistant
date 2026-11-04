@@ -7,7 +7,6 @@ Sortie : data/raw/hr_dataset_full.csv
 Colonnes : instruction, response
 """
 
-import hashlib
 from pathlib import Path
 
 from datasets import load_dataset
@@ -96,13 +95,6 @@ def main() -> None:
     print(f"\nFichier sauvegarde : {OUT}")
 
    
-    # 6. EMPREINTE SHA256
-
-    digest = hashlib.sha256(OUT.read_bytes()).hexdigest()[:12]
-
-    print(f"Empreinte SHA256 : {digest}")
-    print("Note cette empreinte dans ton rapport.")
-
 
 if __name__ == "__main__":
     main()
