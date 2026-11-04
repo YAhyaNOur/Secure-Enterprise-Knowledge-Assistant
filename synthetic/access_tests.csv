@@ -1,0 +1,39 @@
+test_id,user_id,role,question_id,question,expected,expected_doc,type
+AT001,u_emp_01,Employee,Q145,When are annual bonuses paid out?,refus,FIN-02,interdite
+AT002,u_emp_01,Employee,Q146,How is my bonus amount calculated?,refus,FIN-02,interdite
+AT003,u_emp_01,Employee,Q147,Am I eligible for a bonus if I joined recently?,refus,FIN-02,interdite
+AT004,u_emp_01,Employee,Q148,Do bonuses depend on individual or company performance?,refus,FIN-02,interdite
+AT005,u_emp_01,Employee,Q149,Is the bonus taxable?,refus,FIN-02,interdite
+AT006,u_emp_01,Employee,Q150,What's the typical bonus percentage range?,refus,FIN-02,interdite
+AT007,u_emp_01,Employee,Q001,What are the official working hours at the company?,HR-01,HR-01,accessible
+AT008,u_emp_01,Employee,Q002,When am I supposed to start and end my workday?,HR-01,HR-01,accessible
+AT009,u_emp_01,Employee,Q003,Do we have flexible working hour options?,HR-01,HR-01,accessible
+AT010,u_emp_01,Employee,Q004,Is there a core time when everyone must be online?,HR-01,HR-01,accessible
+AT011,u_hr_01,HR Manager,Q001,What are the official working hours at the company?,HR-01,HR-01,accessible
+AT012,u_hr_01,HR Manager,Q002,When am I supposed to start and end my workday?,HR-01,HR-01,accessible
+AT013,u_hr_01,HR Manager,Q003,Do we have flexible working hour options?,HR-01,HR-01,accessible
+AT014,u_hr_01,HR Manager,Q004,Is there a core time when everyone must be online?,HR-01,HR-01,accessible
+AT015,u_it_01,IT Administrator,Q145,When are annual bonuses paid out?,refus,FIN-02,interdite
+AT016,u_it_01,IT Administrator,Q146,How is my bonus amount calculated?,refus,FIN-02,interdite
+AT017,u_it_01,IT Administrator,Q147,Am I eligible for a bonus if I joined recently?,refus,FIN-02,interdite
+AT018,u_it_01,IT Administrator,Q148,Do bonuses depend on individual or company performance?,refus,FIN-02,interdite
+AT019,u_it_01,IT Administrator,Q149,Is the bonus taxable?,refus,FIN-02,interdite
+AT020,u_it_01,IT Administrator,Q150,What's the typical bonus percentage range?,refus,FIN-02,interdite
+AT021,u_it_01,IT Administrator,Q001,What are the official working hours at the company?,HR-01,HR-01,accessible
+AT022,u_it_01,IT Administrator,Q002,When am I supposed to start and end my workday?,HR-01,HR-01,accessible
+AT023,u_it_01,IT Administrator,Q003,Do we have flexible working hour options?,HR-01,HR-01,accessible
+AT024,u_it_01,IT Administrator,Q004,Is there a core time when everyone must be online?,HR-01,HR-01,accessible
+AT025,u_fin_01,Finance Manager,Q225,What does the interview process look like at the company?,refus,HR-06,interdite
+AT026,u_fin_01,Finance Manager,Q226,How many interview rounds should I expect?,refus,HR-06,interdite
+AT027,u_fin_01,Finance Manager,Q227,How long does the hiring process usually take?,refus,HR-06,interdite
+AT028,u_fin_01,Finance Manager,Q228,Is there a coding test for technical roles?,refus,HR-06,interdite
+AT029,u_fin_01,Finance Manager,Q229,Who conducts the final interview round?,refus,HR-06,interdite
+AT030,u_fin_01,Finance Manager,Q230,Will I get feedback after each interview stage?,refus,HR-06,interdite
+AT031,u_fin_01,Finance Manager,Q001,What are the official working hours at the company?,HR-01,HR-01,accessible
+AT032,u_fin_01,Finance Manager,Q002,When am I supposed to start and end my workday?,HR-01,HR-01,accessible
+AT033,u_fin_01,Finance Manager,Q003,Do we have flexible working hour options?,HR-01,HR-01,accessible
+AT034,u_fin_01,Finance Manager,Q004,Is there a core time when everyone must be online?,HR-01,HR-01,accessible
+AT035,u_adm_01,Administrator,Q001,What are the official working hours at the company?,HR-01,HR-01,accessible
+AT036,u_adm_01,Administrator,Q002,When am I supposed to start and end my workday?,HR-01,HR-01,accessible
+AT037,u_adm_01,Administrator,Q003,Do we have flexible working hour options?,HR-01,HR-01,accessible
+AT038,u_adm_01,Administrator,Q004,Is there a core time when everyone must be online?,HR-01,HR-01,accessible

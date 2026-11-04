@@ -40,7 +40,7 @@ def load_passages() -> list[dict]:
         for line in f:
             p = json.loads(line)
             p["doc_title"] = titles[p["doc_id"]]
-            p["text_hash"] = text_hash(p["text"])
+            p["text_hash"] = text_hash(p["text"] + "|" + p["status"] + "|" + p["version"])
             # texte vectorise : titres + contenu (le champ "text" reste la reponse brute)
             p["embed_text"] = f"{p['doc_title']} - {p['section_title']}\n{p['text']}"
             passages.append(p)
